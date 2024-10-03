@@ -1,38 +1,143 @@
-.App {
+.app {
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.app-header {
+  background-color: #9b59b6;
+  padding: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.upload-section {
+  margin: 20px;
+  width: 80rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.upload-box {
+  background-color: #ffffff;
+  align-items: center;
+  padding: 20px;
+  width: 82.5rem;
+  height: 15rem;
+  border-radius: 8px;
+  display: inline-block;
+  position: relative;
+}
+
+.upload-box p {
+  color: #333;
+  font-size: 18px;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.Upload-Btn {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.input-section {
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 900px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.options-section {
+  margin: 20px;
+}
+
+.option-button {
+  background-color: #8e44ad;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.option-button.active {
+  background-color: #5e3370;
+}
+
+.generate-section {
+  margin: 20px;
+}
+
+.generate-button {
+  background-color: #9b59b6;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 80rem;
+}
+
+.generate-button:hover {
+  background-color: #8e44ad;
+}
+
+/* Container for the style buttons */
+.style-selection {
+  margin: 20px 0;
+}
+
+.style-selection button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.style-selection button:hover {
+  background-color: #e0e0e0;
+}
+
+.style-selection button:focus {
+  outline: none;
+}
+
+.style-selection button.selected {
+  background-color: #ddd;
+  color: #000;
+  border-color: #bbb;
+}
+
+.style-selection button.selected:hover {
+  background-color: #ccc;
 }
