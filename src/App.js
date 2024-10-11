@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <h1>Image Generator</h1>
-      <ImageGenerator />
+      <WebAppAi />
     </div>
   );
 }

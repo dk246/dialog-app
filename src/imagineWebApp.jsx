@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 
 const IMAGINE_API_KEY =
-  "Bearer vk-XHkd3LpzULkFVDRZeEKhqsFyWx6MOIG2yvKqdvDxuNl7HZ";
+  "Bearer vk-lqWlSFNtDXE3hpNZozWK6sWMGCYZGM4s9jnV2xaVvQMqs7";
 
 const styleOptions = {
   21: "Anime",
